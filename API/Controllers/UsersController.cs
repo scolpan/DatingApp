@@ -33,4 +33,13 @@ public class UsersController : BaseApiController
         return await _context.Users.FindAsync(id);
     }
 
+    // [HttpGet("claim")]
+    // public ActionResult GetClaim() {
+
+    //     var user = User;
+    //     //var role = user
+
+    //     return Ok(user.Claims.First().Value);
+    // }
+
 }
